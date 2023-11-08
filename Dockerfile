@@ -12,3 +12,5 @@ COPY . /app
 
 # Definir un entrypoin
 ENTRYPOINT ["python", "main.py"]
+# Definimos bash como entrypoint para poder ejecutar comandos
+#ENTRYPOINT ["bash"]
